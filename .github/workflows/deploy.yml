@@ -33,3 +33,7 @@ jobs:
           protocol: ftp
           local-dir: ./dist
           server-dir: /public_html/
+      - name: Debug secrets
+        run: echo "Server is ${{ secrets.FTP_SERVER }}"
+
+    
