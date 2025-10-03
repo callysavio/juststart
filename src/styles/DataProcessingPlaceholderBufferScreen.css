@@ -1,0 +1,20 @@
+/* Text styles extracted from Figma:
+// 19:27
+color: '#0E0E0E', fontSize: 15, fontFamily: 'Plus Jakarta Sans', fontWeight: '600', wordWrap: 'break-word'
+---
+// One moment!
+color: '#0E0E0E', fontSize: 24, fontFamily: 'Montserrat', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'
+---
+// We are creating your skills inventory based on your selection.
+color: '#6C6C6C', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', lineHeight: 24, wordWrap: 'break-word'
+*/
+.svg-spinner {
+  animation: spin 1s linear infinite;
+  transform-origin: center;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
