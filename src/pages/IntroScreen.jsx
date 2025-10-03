@@ -21,7 +21,7 @@ const IntroScreen = () => {
       fontFamily: 'Montserrat, sans-serif',
       color: '#0E0E0E'
     }}>
-      
+
       {/* Status Header */}
       <div style={{
         width: '100%',
@@ -54,6 +54,8 @@ const IntroScreen = () => {
         <h2 style={{ fontSize: '1.5rem', fontWeight: 500, marginBottom: 16 }}>
           Welcome to SPARK Careers
         </h2>
+        <p>I am Callistus</p>
+
         <p style={{
           fontSize: '1rem',
           fontWeight: 300,
