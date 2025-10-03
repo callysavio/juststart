@@ -56,7 +56,7 @@ const IntroScreen = () => {
         </h2>
         <p>I am Callistus</p>
         <p>Testing Live now!</p>
-
+        <p>Dangerous clean state added!</p>
         <p style={{
           fontSize: '1rem',
           fontWeight: 300,
