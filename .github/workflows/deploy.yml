@@ -33,6 +33,7 @@ jobs:
           protocol: ftp
           local-dir: ./dist/
           server-dir: ./
+          dangerous-clean-slate: true
       - name: Debug secrets
         run: echo "Server is ${{ secrets.FTP_SERVER }}"
 
